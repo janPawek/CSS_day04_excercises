@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --main-color: magenta;
+}
+
+
+.bar {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 60px;
+}
+
+.bar-item1 {
+    flex-basis: 35%;
+}
+
+.bar-item2 {
+    flex-basis: 40%;
+}
+
+.bar-item3 {
+    flex-basis: 10%;
+}
+
+.bar-item4 {
+    flex-basis: 10%;
+}
+
+.bar-item5 {
+    flex-basis: 5%;
+}
+
+
+img[class="user"] {
+    height: 35px;
+    width: auto;
+}
+
+
+img[class="cart"] {
+    height: 35px;
+    width: auto;
+}
+
+img:hover {
+    height: 50px;
+}
