@@ -16,7 +16,7 @@
 }
 
 .bar-item1 {
-    flex-basis: 35%;
+    flex-basis: 15%;
 }
 
 .bar-item2 {
@@ -24,15 +24,15 @@
 }
 
 .bar-item3 {
-    flex-basis: 10%;
+    flex-basis: 15%;
 }
 
 .bar-item4 {
-    flex-basis: 10%;
+    flex-basis: 15%;
 }
 
 .bar-item5 {
-    flex-basis: 5%;
+    flex-basis: 15%;
 }
 
 
@@ -43,6 +43,14 @@ img[class="user"] {
 
 
 img[class="cart"] {
+    height: 35px;
+    width: auto;
+}
+img[class="home"] {
+    height: 35px;
+    width: auto;
+}
+img[class="tele"] {
     height: 35px;
     width: auto;
 }
